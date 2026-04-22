@@ -1,32 +1,17 @@
-hasanozici# HS Garage - Oto Elektrik Servisi ⚡🚗
+# HS Garage Oto Elektrik ⚡🚗
 
-HS Garage, araçların elektrik ve elektronik sistemlerine yönelik bakım, onarım ve arıza tespiti hizmetleri sunan bir oto elektrik servisidir.
+HS Garage, Eskişehir'de oto elektrik ve araç bakım hizmetleri sunan bir servistir.
 
----
+## 📍 Adres
+Prof. Dr. Orhan Oğuz Cad. No:89/A  
+Tepebaşı / Eskişehir  
+
+## 📞 Telefon
+0545 647 44 46  
 
 ## 🚀 Hizmetler
-
-- Akü kontrolü ve değişimi  
-- Marş ve şarj sistemi tamiri  
-- Far ve aydınlatma sistemleri  
-- Elektrik arıza tespiti  
-- OBD cihazı ile arıza analizi  
-- Sensör ve ECU kontrolleri  
-
----
-
-## 🛠️ Kullanılan Teknolojiler
-
-- HTML  
-- CSS  
-- JavaScript  
-
----
-
-## 📦 Kurulum
-
-Projeyi bilgisayarınıza klonlayın:
-
-```bash
-git clone https://github.com/kullanici/hs-garage.git
-cd hs-garage
+- Oto Elektrik Arıza Tespiti  
+- Akü ve Şarj Sistemleri  
+- Pasta Cila ve Detaylı Temizlik  
+- Seramik ve TPU Kaplama  
+- Motor Yağ ve Filtre Bakımı  
