@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İletişim - HS Garage</title>
 
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #111;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+    color: #f1c40f;
+}
+
+.container {
+    padding: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.map {
+    margin-top: 20px;
+}
+
+iframe {
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.map-btn {
+    background: #f1c40f;
+    color: #000;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: #fff;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+</style>
+</head>
+
+<body>
+
+<h1>İletişim</h1>
+
+<div class="container">
+
+    <div class="info">
+        <p><strong>HS Garage Oto Elektrik</strong></p>
+
+        <p>
+            📍 Prof. Dr. Orhan Oğuz Cad. No:89/A <br>
+            Tepebaşı / Eskişehir
+        </p>
+
+        <p>📞 0545 647 44 46</p>
+    </div>
+
+    <!-- Butonlar -->
+    <a class="button map-btn" 
+       href="https://www.google.com/maps?q=Prof.%20Dr.%20Orhan%20Oguz%20Cad.%20No:89/A%20Tepebasi%20Eskisehir" 
+       target="_blank">
+       📍 Yol Tarifi Al
+    </a>
+
+    <a class="button whatsapp-btn" 
+       href="https://wa.me/905456474446" 
+       target="_blank">
+       💬 WhatsApp'tan Yaz
+    </a>
+
+    <!-- Harita -->
+    <div class="map">
+        <iframe 
+        src="https://www.google.com/maps?q=Prof.%20Dr.%20Orhan%20Oguz%20Cad.%20No:89/A%20Tepebasi%20Eskisehir&output=embed">
+        </iframe>
+    </div>
+
+</div>
+
+</body>
+</html>
