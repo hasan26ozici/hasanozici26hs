@@ -2,30 +2,63 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>Hizmetler</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HS Garage | Hizmetler</title>
+<style>
+body {margin:0;font-family:Arial,sans-serif;background:#0f172a;color:white;}
+header {display:flex;justify-content:space-between;align-items:center;padding:15px 30px;background:#020617;}
+header h1 {margin:0;font-size:20px;color:#38bdf8;}
+nav a {color:white;text-decoration:none;margin:0 10px;transition:0.3s;}
+nav a:hover {color:#38bdf8;}
+.hero {text-align:center;padding:80px 20px;background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.unsplash.com/photo-1515923162033-7a4a91e4d2f3');background-size:cover;background-position:center;}
+.hero h2 {font-size:36px;}
+.services {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:50px 20px;}
+.card {background:#020617;padding:25px;border-radius:12px;text-align:center;transition:0.3s;}
+.card:hover {transform:translateY(-8px);}
+.card h3 {color:#38bdf8;}
+.btn {margin-top:10px;padding:10px 20px;background:#38bdf8;border:none;border-radius:8px;cursor:pointer;display:block;width:100%;}
+.whatsapp {background:#25D366;color:white;margin-top:8px;}
+footer {text-align:center;padding:20px;background:#020617;}
+.whatsapp-float {position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:15px;border-radius:50%;font-size:20px;text-decoration:none;}
+@media (max-width:600px){.hero h2{font-size:26px;}}
+</style>
 </head>
 <body>
-
-<h1>Hizmetlerimiz</h1>
-
-<ul>
-<li>Akü Kontrolü ve Değişimi</li>
-<li>Alternatör Tamiri</li>
-<li>Marş Motoru Tamiri</li>
-<li>Elektrik Arıza Tespiti</li>
-<li>ECU ve Sensör Arızaları</li>
-<li>OBD Arıza Tespiti</li>
-<li>Pasta Cila</li>
-<li>Boya Koruma</li>
-<li>Seramik Kaplama</li>
-<li>TPU Kaplama</li>
-<li>Far Temizleme</li>
-<li>Detaylı Temizlik</li>
-<li>Koltuk Yıkama</li>
-<li>Cam Filmi</li>
-<li>Oto Aksesuar</li>
-<li>Motor Yağ Bakımı ve Filtre Değişimi</li>
-</ul>
-
+<header>
+<h1>HS Garage ⚡</h1>
+<nav>
+<a href="index.html">Ana Sayfa</a>
+<a href="hizmetler.html">Hizmetler</a>
+<a href="blog.html">Blog</a>
+<a href="iletisim.html">İletişim</a>
+</nav>
+</header>
+<section class="hero">
+<h2>Hizmetlerimiz</h2>
+<p>Araçlarınız için profesyonel çözümler</p>
+</section>
+<section class="services">
+<div class="card"><h3>🔋 Akü Kontrolü</h3><p>Akü test ve değişim</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>⚙️ Alternatör</h3><p>Şarj sistemi tamiri</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🚗 Marş Motoru</h3><p>Marş arıza çözümü</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>💻 Arıza Tespiti</h3><p>Bilgisayarlı analiz</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🧠 ECU & Sensör</h3><p>Beyin ve sensör çözümü</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>📊 OBD Tespit</h3><p>Detaylı arıza kontrolü</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>✨ Pasta Cila</h3><p>Parlak görünüm</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🛡️ Boya Koruma</h3><p>Uzun süreli koruma</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>💎 Seramik Kaplama</h3><p>Üst düzey koruma</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🧴 TPU Kaplama</h3><p>Şeffaf koruma</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>💡 Far Temizleme</h3><p>Far yenileme</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🧽 Detaylı Temizlik</h3><p>İç dış temizlik</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🪑 Koltuk Yıkama</h3><p>Derin temizlik</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🪟 Cam Filmi</h3><p>Güneş koruma</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🎯 Aksesuar</h3><p>Ekstra donanım</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+<div class="card"><h3>🛢️ Yağ & Filtre</h3><p>Periyodik bakım</p><button class="btn">Detay</button><a href="https://wa.me/905000000000" class="btn whatsapp">WhatsApp</a></div>
+</section>
+<footer>
+<p>© 2026 HS Garage - Tüm Hakları Saklıdır</p>
+</footer>
+<a href="https://wa.me/905456474446" class="whatsapp-float">💬</a>
 </body>
 </html>
+
