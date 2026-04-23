@@ -5,139 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>HS Garage</title>
 <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background: #020617;
-}
-
-header h1 {
-  margin: 0;
-  font-size: 20px;
-  color: #38bdf8;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #38bdf8;
-}
-
-.hero {
-  text-align: center;
-  padding: 100px 20px;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');
-  background-size: cover;
-  background-position: center;
-}
-
-.hero h2 {
-  font-size: 40px;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-.btn {
-  padding: 12px 25px;
-  background: #38bdf8;
-  border: none;
-  border-radius: 8px;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background: #0ea5e9;
-}
-
-.services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 50px 20px;
-}
-
-.card {
-  background: #020617;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #020617;
-}
-
-@media (max-width: 600px) {
-  .hero h2 {
-    font-size: 28px;
-  }
-}
+body {margin:0;font-family:Arial,sans-serif;background:#0f172a;color:white;}
+header {display:flex;justify-content:space-between;align-items:center;padding:15px 30px;background:#020617;}
+header h1 {margin:0;font-size:20px;color:#ff6a00;}
+nav a {color:white;text-decoration:none;margin:0 10px;transition:0.3s;}
+nav a:hover {color:#ff6a00;}
+.hero {text-align:center;padding:100px 20px;background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');background-size:cover;background-position:center;}
+.hero h2 {font-size:40px;margin-bottom:10px;}
+.hero p {font-size:18px;margin-bottom:20px;}
+.btn {padding:12px 25px;background:#ff6a00;border:none;border-radius:8px;color:white;font-weight:bold;cursor:pointer;transition:0.3s;text-decoration:none;display:inline-block;margin:5px;}
+.btn:hover {background:#e65c00;}
+.services {display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:50px 20px;}
+.card {background:#020617;padding:20px;border-radius:12px;text-align:center;transition:0.3s;}
+.card:hover {transform:translateY(-5px);}
+footer {text-align:center;padding:20px;background:#020617;}
+@media (max-width:600px){.hero h2{font-size:28px;}}
 </style>
 </head>
 <body>
-
 <header>
-  <h1>HS Garage ⚡</h1>
-  <nav>
-    <a href="index.html">Ana Sayfa</a>
-    <a href="hizmetler.html">Hizmetler</a>
-    <a href="blog.html">Blog</a>
-    <a href="iletisim.html">İletişim</a>
-  </nav>
+<h1>HS Garage ⚡</h1>
+<nav>
+<a href="index.html">Ana Sayfa</a>
+<a href="hizmetler.html">Hizmetler</a>
+<a href="blog.html">Blog</a>
+<a href="iletisim.html">İletişim</a>
+</nav>
 </header>
-
 <section class="hero">
-  <h2>Oto Elektrikte Güvenilir Adres</h2>
-  <p>Profesyonel araç bakım ve elektrik çözümleri</p>
-  <button class="btn">Randevu Al</button>
+<h2>Oto Elektrikte Güvenilir Adres</h2>
+<p>Profesyonel araç bakım ve elektrik çözümleri</p>
+<a href="tel:+905456474446" class="btn">Hemen Ara</a>
+<a href="https://wa.me/905456474446" class="btn">WhatsApp</a>
 </section>
-
 <section class="services">
-  <div class="card">
-    <h3>Akü Kontrol</h3>
-    <p>Akü test ve değişim hizmetleri</p>
-  </div>
-  <div class="card">
-    <h3>Arıza Tespiti</h3>
-    <p>Bilgisayarlı arıza analizi</p>
-  </div>
-  <div class="card">
-    <h3>Far & Aydınlatma</h3>
-    <p>LED ve far sistemleri</p>
-  </div>
+<div class="card"><h3>Akü Kontrol</h3><p>Akü test ve değişim hizmetleri</p></div>
+<div class="card"><h3>Arıza Tespiti</h3><p>Bilgisayarlı arıza analizi</p></div>
+<div class="card"><h3>Far & Aydınlatma</h3><p>LED ve far sistemleri</p></div>
 </section>
-
 <footer>
-  <p>© 2026 HS Garage - Tüm Hakları Saklıdır</p>
+<p>© 2026 HS Garage - Tüm Hakları Saklıdır</p>
 </footer>
-
 </body>
 </html>
+
