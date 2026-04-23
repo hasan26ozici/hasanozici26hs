@@ -6,113 +6,19 @@
 <title>HS Garage | Blog</title>
 
 <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #ffffff;
-  color: #1f2937;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  background: #ff6a00;
-}
-
-header h1 {
-  margin: 0;
-  color: white;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: #fff7ed;
-}
-
-.hero h2 {
-  color: #ff6a00;
-}
-
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 40px 20px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
-}
-
-.card {
-  background: #fff7ed;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: 0.3s;
-  border: 1px solid #fed7aa;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-}
-
-.card img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card-content {
-  padding: 15px;
-}
-
-.card h3 {
-  color: #ff6a00;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 15px;
-  background: #ff6a00;
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn:hover {
-  background: #e65c00;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #ff6a00;
-  color: white;
-}
-
-.whatsapp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #22c55e;
-  color: white;
-  padding: 15px;
-  border-radius: 50%;
-  text-decoration: none;
-}
+body {margin:0;font-family:Arial;background:#ffffff;color:#1f2937;}
+header {display:flex;justify-content:space-between;align-items:center;padding:15px 30px;background:#ff6a00;}
+header h1 {color:white;margin:0;}
+nav a {color:white;margin:0 10px;text-decoration:none;font-weight:bold;}
+.hero {text-align:center;padding:60px;background:#fff7ed;}
+.hero h2 {color:#ff6a00;}
+.container {max-width:900px;margin:auto;padding:30px;}
+.post {background:#fff7ed;padding:20px;margin-bottom:20px;border-radius:12px;border:1px solid #fed7aa;}
+.post h3 {color:#ff6a00;margin-top:0;}
+.btn {display:inline-block;margin-top:10px;padding:10px 15px;background:#ff6a00;color:white;border-radius:8px;text-decoration:none;font-weight:bold;}
+.btn:hover {background:#e65c00;}
+footer {text-align:center;padding:20px;background:#ff6a00;color:white;}
+.whatsapp {position:fixed;bottom:20px;right:20px;background:#22c55e;color:white;padding:15px;border-radius:50%;text-decoration:none;}
 </style>
 
 </head>
@@ -120,64 +26,109 @@ footer {
 <body>
 
 <header>
-  <h1>HS Garage ⚡</h1>
-  <nav>
-    <a href="index.html">Ana Sayfa</a>
-    <a href="hizmetler.html">Hizmetler</a>
-    <a href="blog.html">Blog</a>
-    <a href="iletisim.html">İletişim</a>
-  </nav>
+<h1>HS Garage ⚡</h1>
+<nav>
+<a href="index.html">Ana Sayfa</a>
+<a href="hizmetler.html">Hizmetler</a>
+<a href="blog.html">Blog</a>
+<a href="iletisim.html">İletişim</a>
+</nav>
 </header>
 
 <section class="hero">
-  <h2>Blog & Bilgi Merkezi</h2>
-  <p>Araç bakımı hakkında faydalı bilgiler</p>
+<h2>Bilgi & Hizmet Yazıları</h2>
+<p>Hizmetlerimiz hakkında detaylı bilgiler</p>
 </section>
 
 <div class="container">
-  <div class="grid">
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c">
-      <div class="card-content">
-        <h3>Akü Ne Zaman Değişmeli?</h3>
-        <p>Akünün bittiğini nasıl anlarsın?</p>
-        <a href="tel:+905456474446" class="btn">Ara</a>
-      </div>
-    </div>
+<div class="post">
+<h3>Akü Kontrolü ve Değişimi</h3>
+<p>Araç aküsü zamanla performans kaybı yaşar. Özellikle sabahları zor çalışma, farlarda zayıflık gibi belirtiler akünün bittiğini gösterir. Düzenli kontrol ve zamanında değişim, yolda kalmanızı önler.</p>
+<a href="tel:+905456474446" class="btn">Hemen Ara</a>
+</div>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
-      <div class="card-content">
-        <h3>Elektrik Arızası Belirtileri</h3>
-        <p>Araçta elektrik arızası nasıl anlaşılır?</p>
-        <a href="https://wa.me/905456474446" class="btn">WhatsApp</a>
-      </div>
-    </div>
+<div class="post">
+<h3>Alternatör Tamiri</h3>
+<p>Alternatör aracın şarj sistemidir. Akü sürekli bitiyorsa sorun alternatörde olabilir. Profesyonel test ile arıza tespit edilip tamir edilir.</p>
+<a href="https://wa.me/905456474446" class="btn">WhatsApp</a>
+</div>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1487754180451-c456f719a1fc">
-      <div class="card-content">
-        <h3>Pasta Cila Neden Yapılır?</h3>
-        <p>Aracın neden pasta cilaya ihtiyacı olur?</p>
-        <a href="tel:+905456474446" class="btn">Ara</a>
-      </div>
-    </div>
+<div class="post">
+<h3>Marş Motoru Tamiri</h3>
+<p>Araç çalışmıyorsa marş motoru arızalı olabilir. Tık sesi gelip çalışmama gibi durumlar bu soruna işarettir.</p>
+<a href="tel:+905456474446" class="btn">Ara</a>
+</div>
 
-    <div class="card">
-      <img src="https://images.unsplash.com/photo-1493238792000-8113da705763">
-      <div class="card-content">
-        <h3>Yağ ve Filtre Değişimi</h3>
-        <p>Motor ömrü için neden önemli?</p>
-        <a href="https://wa.me/905456474446" class="btn">WhatsApp</a>
-      </div>
-    </div>
+<div class="post">
+<h3>Elektrik Arıza Tespiti</h3>
+<p>Modern araçlarda elektrik arızaları karmaşıktır. Bilgisayarlı cihazlarla doğru teşhis yapılır ve gereksiz masraf önlenir.</p>
+</div>
 
-  </div>
+<div class="post">
+<h3>ECU ve Sensör Arızaları</h3>
+<p>Motor beyni (ECU) ve sensörler aracın düzgün çalışmasını sağlar. Arızalarında performans düşer ve yakıt artar.</p>
+</div>
+
+<div class="post">
+<h3>OBD Arıza Tespiti</h3>
+<p>OBD cihazı ile araçtaki tüm hata kodları okunur. Sorunun kaynağı hızlıca bulunur.</p>
+</div>
+
+<div class="post">
+<h3>Pasta Cila</h3>
+<p>Araç boyasında oluşan çizikler pasta cila ile giderilir. Araç daha parlak ve yeni görünür.</p>
+</div>
+
+<div class="post">
+<h3>Boya Koruma</h3>
+<p>Boya koruma işlemi aracınızı güneş, yağmur ve dış etkenlere karşı korur.</p>
+</div>
+
+<div class="post">
+<h3>Seramik Kaplama</h3>
+<p>Seramik kaplama, aracın boyasına ekstra dayanıklılık ve parlaklık sağlar.</p>
+</div>
+
+<div class="post">
+<h3>TPU Kaplama</h3>
+<p>Şeffaf koruma filmi ile aracınız çizilmelere karşı korunur.</p>
+</div>
+
+<div class="post">
+<h3>Far Temizleme</h3>
+<p>Zamanla sararan farlar görüşü azaltır. Temizleme ile ilk günkü haline gelir.</p>
+</div>
+
+<div class="post">
+<h3>Detaylı Temizlik</h3>
+<p>Araç içi ve dışı profesyonel şekilde temizlenir.</p>
+</div>
+
+<div class="post">
+<h3>Koltuk Yıkama</h3>
+<p>Koltuklarda biriken kir ve bakteriler özel makinelerle temizlenir.</p>
+</div>
+
+<div class="post">
+<h3>Cam Filmi</h3>
+<p>Cam filmi hem şıklık hem de güneş koruması sağlar.</p>
+</div>
+
+<div class="post">
+<h3>Oto Aksesuar</h3>
+<p>Araç içi ve dışı aksesuarlarla konfor ve görünüm artırılır.</p>
+</div>
+
+<div class="post">
+<h3>Motor Yağ Bakımı ve Filtre Değişimi</h3>
+<p>Düzenli yağ değişimi motor ömrünü uzatır ve performansı artırır.</p>
+</div>
+
 </div>
 
 <footer>
-  <p>© 2026 HS Garage</p>
+<p>© 2026 HS Garage</p>
 </footer>
 
 <a href="https://wa.me/905456474446" class="whatsapp">💬</a>
